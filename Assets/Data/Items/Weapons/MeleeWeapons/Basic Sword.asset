@@ -32,9 +32,9 @@ MonoBehaviour:
   Dual_Light_Attack_4: TH_Dual_Light_Attack_04
   Dual_Heavy_Attack_1: TH_Dual_Heavy_Attack_01
   Dual_Heavy_Attack_2: TH_Dual_Heavy_Attack_02
-  OH_Light_Attack_1_FX: {fileID: 5231244367710865562, guid: e0c3ade8daae52d4dabd716178ab7e4c, type: 3}
-  OH_Light_Attack_2_FX: {fileID: 5231244367710865562, guid: e0c3ade8daae52d4dabd716178ab7e4c, type: 3}
-  OH_Light_Attack_3_FX: {fileID: 5231244367710865562, guid: e0c3ade8daae52d4dabd716178ab7e4c, type: 3}
+  OH_Light_Attack_1_FX: {fileID: 1485466043327710, guid: 3e914ef784028124db1daf7002a87cc8, type: 3}
+  OH_Light_Attack_2_FX: {fileID: 1485466043327710, guid: 021acaa3f07289d408ad8a667cb26497, type: 3}
+  OH_Light_Attack_3_FX: {fileID: 1011157772751556, guid: ca63c6ac7458764498741e0306f78528, type: 3}
   OH_Heavy_Attack_1_FX: {fileID: 7191523929341108232, guid: 71b0adc06f361404eab33e4355a6b5ec, type: 3}
   OH_Light_Attack_1_Sound: {fileID: 8300000, guid: d6be183c01823411ead2ad97323aa7a9, type: 3}
   OH_Light_Attack_2_Sound: {fileID: 8300000, guid: 9f1eb3b1453754c84b3145e800f9a71c, type: 3}
