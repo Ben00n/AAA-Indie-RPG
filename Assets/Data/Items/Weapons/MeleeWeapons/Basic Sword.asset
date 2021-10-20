@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2c584be9bdb2e478623a977bb9b93e, type: 3}
+  m_Name: Basic Sword
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 796918992f2f0844792df95a0ec8150f, type: 3}
+  itemName: Basic Sword
+  modelPrefab: {fileID: 3662094783033383327, guid: 9547e10729de75d4485f5fac0892b7e8, type: 3}
+  isUnarmed: 0
+  baseDamage: 20
+  heavyDamageMultiplier: 2
+  criticalDamageMultiplier: 5
+  physicalDamageAbsorption: 50
+  right_Hand_Idle: Right_Arm_Idle_01
+  left_Hand_Idle: Left_Arm_Idle_01
+  OH_Light_Attack_1: OH_Quick_01
+  OH_Light_Attack_2: OH_Quick_02
+  OH_Light_Attack_3: OH_Quick_03
+  OH_Heavy_Attack_1: OH_Basic_Sword_Heavy_01
+  Dual_Light_Attack_1: TH_Dual_Light_Attack_01
+  Dual_Light_Attack_2: TH_Dual_Light_Attack_02
+  Dual_Light_Attack_3: TH_Dual_Light_Attack_03
+  Dual_Light_Attack_4: TH_Dual_Light_Attack_04
+  Dual_Heavy_Attack_1: TH_Dual_Heavy_Attack_01
+  Dual_Heavy_Attack_2: TH_Dual_Heavy_Attack_02
+  OH_Light_Attack_1_FX: {fileID: 5231244367710865562, guid: e0c3ade8daae52d4dabd716178ab7e4c, type: 3}
+  OH_Light_Attack_2_FX: {fileID: 5231244367710865562, guid: e0c3ade8daae52d4dabd716178ab7e4c, type: 3}
+  OH_Light_Attack_3_FX: {fileID: 5231244367710865562, guid: e0c3ade8daae52d4dabd716178ab7e4c, type: 3}
+  OH_Heavy_Attack_1_FX: {fileID: 7191523929341108232, guid: 71b0adc06f361404eab33e4355a6b5ec, type: 3}
+  OH_Light_Attack_1_Sound: {fileID: 8300000, guid: d6be183c01823411ead2ad97323aa7a9, type: 3}
+  OH_Light_Attack_2_Sound: {fileID: 8300000, guid: 9f1eb3b1453754c84b3145e800f9a71c, type: 3}
+  OH_Light_Attack_3_Sound: {fileID: 8300000, guid: 886fe241cb73a40d4be447227bdba380, type: 3}
+  OH_Heavy_Attack_1_Sound: {fileID: 8300000, guid: 886fe241cb73a40d4be447227bdba380, type: 3}
+  baseStamina: 10
+  lightAttackMultiplier: 2
+  heavyAttackMultiplier: 4
+  isMeleeWeapon: 1

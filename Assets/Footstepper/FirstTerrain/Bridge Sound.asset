@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Bridge Sound
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips: []
+    walkPrefabs: []
+    runAudioClips:
+    - {fileID: 8300000, guid: d62fb5bae72ba4a40b92511fbde0e4bf, type: 3}
+    - {fileID: 8300000, guid: ebba6fdba910d47779ecc692a2035c64, type: 3}
+    - {fileID: 8300000, guid: e02098e96d076414993367598d4fde83, type: 3}
+    - {fileID: 8300000, guid: 99ca1a040c69147248fe68be21ba84b9, type: 3}
+    runPrefabs: []
+    sprintAudioClips:
+    - {fileID: 8300000, guid: d62fb5bae72ba4a40b92511fbde0e4bf, type: 3}
+    - {fileID: 8300000, guid: ebba6fdba910d47779ecc692a2035c64, type: 3}
+    - {fileID: 8300000, guid: e02098e96d076414993367598d4fde83, type: 3}
+    - {fileID: 8300000, guid: 99ca1a040c69147248fe68be21ba84b9, type: 3}
+    sprintPrefabs: []
+    jumpAudioClips: []
+    jumpPrefabs: []
+    landAudioClips: []
+    landPrefabs: []
+    customEffects: []
+  tagEffects: []

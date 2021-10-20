@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Water Sounds
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips: []
+    walkPrefabs: []
+    runAudioClips:
+    - {fileID: 8300000, guid: d1e84cba3bd4947e49b7d0bda2bb2915, type: 3}
+    - {fileID: 8300000, guid: b81ab9164d7a74c0ba93fbfd90c064fc, type: 3}
+    - {fileID: 8300000, guid: 24a2a9ccf57f1480b811a3c6e0d8e53b, type: 3}
+    - {fileID: 8300000, guid: 760b54be4d2c14d5f8491e5b941ed1ef, type: 3}
+    runPrefabs:
+    - prefab: {fileID: 1875171490749914, guid: f21cdc76a574bd941836bf8f69757cef, type: 3}
+      atHitPosition: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 2
+      removeAfter: 0
+    sprintAudioClips:
+    - {fileID: 8300000, guid: d1e84cba3bd4947e49b7d0bda2bb2915, type: 3}
+    - {fileID: 8300000, guid: b81ab9164d7a74c0ba93fbfd90c064fc, type: 3}
+    - {fileID: 8300000, guid: 24a2a9ccf57f1480b811a3c6e0d8e53b, type: 3}
+    - {fileID: 8300000, guid: 760b54be4d2c14d5f8491e5b941ed1ef, type: 3}
+    sprintPrefabs:
+    - prefab: {fileID: 1089552031591370, guid: 2a176afa3f08aea4fabe20d14587ce4b, type: 3}
+      atHitPosition: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 0
+      removeAfter: 0
+    - prefab: {fileID: 1108079522881646, guid: fd2a5cf43b238f24fbaaa9f242f2419c, type: 3}
+      atHitPosition: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 0
+      removeAfter: 0
+    jumpAudioClips: []
+    jumpPrefabs: []
+    landAudioClips: []
+    landPrefabs: []
+    customEffects: []
+  tagEffects: []

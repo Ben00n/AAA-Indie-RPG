@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d57823b09fee994d84745d0f8e0ee22, type: 3}
+  m_Name: Textures Controller
+  m_EditorClassIdentifier: 
+  textureData:
+  - texture:
+    - {fileID: 2800000, guid: 3cf543484d2fb7347b203b934a632fa6, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 66bfffbfc1446e24dbf6081d20fc9daa, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 6493bb18eb06fc945b11308641bfa1d0, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 42a91a090222e8948a229c10e2b60a81, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: a28275b5e44d45d46b095b81f29862b4, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 66bfffbfc1446e24dbf6081d20fc9daa, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 2ac139036f538cc42a8301628453cad5, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: decdade75c933cc498f73a6c9f240760, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: b7092185d138e6240b14133750049404, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: f6605a6d90c197c4d99424a12dffb35c, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: badc4e58ab4c4de4fbc591540c5ccbe1, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 97c481dba768b0d46bd9d4263818212e, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 66205e406ebef6c44a53d4a36dada6c1, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: aad8ca4f67b548c4c968d86efaec686d, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 6fddb46842288ce45bac0f4bd1c06029, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 700647d85b9c377458eced66f7087213, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: d115395b545f1e34088cda09117b88fc, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: a28275b5e44d45d46b095b81f29862b4, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}
+  - texture:
+    - {fileID: 2800000, guid: 05dcd851a89870941b4cc2712b372480, type: 3}
+    sprite: []
+    material: {fileID: 11400000, guid: 02b27a37bdacdf4459be20af16817b48, type: 2}

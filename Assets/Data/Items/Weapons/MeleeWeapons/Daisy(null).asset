@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2c584be9bdb2e478623a977bb9b93e, type: 3}
+  m_Name: Daisy(null)
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 447f56849ae8b61458aefa2569255a91, type: 3}
+  itemName: Daisy
+  modelPrefab: {fileID: 0}
+  isUnarmed: 0
+  baseDamage: 25
+  heavyDamageMultiplier: 2
+  criticalDamageMultiplier: 4
+  physicalDamageAbsorption: 0
+  right_Hand_Idle: 
+  left_Hand_Idle: 
+  OH_Light_Attack_1: 
+  OH_Light_Attack_2: 
+  OH_Light_Attack_3: 
+  OH_Heavy_Attack_1: 
+  Dual_Light_Attack_1: 
+  Dual_Light_Attack_2: 
+  Dual_Light_Attack_3: 
+  Dual_Light_Attack_4: 
+  Dual_Heavy_Attack_1: 
+  Dual_Heavy_Attack_2: 
+  OH_Light_Attack_1_FX: {fileID: 0}
+  OH_Light_Attack_2_FX: {fileID: 0}
+  OH_Light_Attack_3_FX: {fileID: 0}
+  OH_Heavy_Attack_1_FX: {fileID: 0}
+  OH_Light_Attack_1_Sound: {fileID: 0}
+  OH_Light_Attack_2_Sound: {fileID: 0}
+  OH_Light_Attack_3_Sound: {fileID: 0}
+  OH_Heavy_Attack_1_Sound: {fileID: 0}
+  baseStamina: 0
+  lightAttackMultiplier: 0
+  heavyAttackMultiplier: 0
+  isMeleeWeapon: 0

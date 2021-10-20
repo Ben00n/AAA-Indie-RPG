@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1dc74de3132b14c85964fd98d4b570, type: 3}
+  m_Name: Axe_Attack_04
+  m_EditorClassIdentifier: 
+  actionAnimation: Axe_Attack_04
+  canCombo: 0
+  comboAction: {fileID: 0}
+  attackScore: 3
+  recoveryTime: 2
+  maximumAttackAngle: 35
+  minimumAttackAngle: -35
+  minimumDistanceNeededToAttack: 0
+  maximumDistanceNeededToAttack: 2
+  instantiatedFX: {fileID: 5231244367710865562, guid: e0c3ade8daae52d4dabd716178ab7e4c, type: 3}

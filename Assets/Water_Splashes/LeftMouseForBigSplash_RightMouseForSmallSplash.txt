@@ -1,0 +1,2 @@
+Click the left mouse button to light fuse the explosions.
+Click the right mouse button to reset.

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1901d6c21371b25439192ca28eb5670c, type: 3}
+  m_Name: Knight's Gauntlets
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 0}
+  itemName: Knight's Gauntlets
+  physicalDefense: 8
+  leftHandModelName: Male_Hand_Left_02
+  rightHandModelName: Male_Hand_Right_02
+  lowerLeftArmModelName: Male_Arm_Lower_Left_12
+  lowerRightArmModelName: Male_Arm_Lower_Right_12
+  leftElbowModelName: Elbow_Attachment_Left_05
+  rightElbowModelName: Elbow_Attachment_Right_05

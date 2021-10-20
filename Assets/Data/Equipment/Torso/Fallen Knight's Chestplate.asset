@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a18ad689e55a242a6d7bac3e54a614, type: 3}
+  m_Name: Fallen Knight's Chestplate
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 0}
+  itemName: Fallen Knight's Chestplate
+  physicalDefense: 0
+  torsoModelName: Male_Torso_10
+  upperLeftArmModelName: Male_Arm_Upper_Left_05
+  upperRightArmModelName: Male_Arm_Upper_Right_05

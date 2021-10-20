@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Desert_puff
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips: []
+    walkPrefabs: []
+    runAudioClips:
+    - {fileID: 8300000, guid: 011050ab7825940a698b5b64da3683b0, type: 3}
+    - {fileID: 8300000, guid: 85e2a1100afab4abb9d945100fcdf846, type: 3}
+    - {fileID: 8300000, guid: 1c7f03601310f4a83b2a23b750c8fbb8, type: 3}
+    - {fileID: 8300000, guid: 9f616b58eef8c446892888e750ac0f71, type: 3}
+    - {fileID: 8300000, guid: d78f91e8cd7c64bae9a7635e8062f24d, type: 3}
+    runPrefabs:
+    - prefab: {fileID: 1937569298127228, guid: 63c167b821ab97d4a8e5f22fb2a531ad, type: 3}
+      atHitPosition: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 2
+      removeAfter: 0
+    sprintAudioClips:
+    - {fileID: 8300000, guid: 011050ab7825940a698b5b64da3683b0, type: 3}
+    - {fileID: 8300000, guid: 85e2a1100afab4abb9d945100fcdf846, type: 3}
+    - {fileID: 8300000, guid: 1c7f03601310f4a83b2a23b750c8fbb8, type: 3}
+    - {fileID: 8300000, guid: 9f616b58eef8c446892888e750ac0f71, type: 3}
+    - {fileID: 8300000, guid: d78f91e8cd7c64bae9a7635e8062f24d, type: 3}
+    sprintPrefabs:
+    - prefab: {fileID: 1937569298127228, guid: 63c167b821ab97d4a8e5f22fb2a531ad, type: 3}
+      atHitPosition: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      useFootRotation: 0
+      useHitNormal: 0
+      rotationOffset: {x: 0, y: 0, z: 0}
+      stopAfter: 2
+      removeAfter: 0
+    jumpAudioClips: []
+    jumpPrefabs: []
+    landAudioClips: []
+    landPrefabs: []
+    customEffects: []
+  tagEffects: []

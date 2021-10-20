@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2c584be9bdb2e478623a977bb9b93e, type: 3}
+  m_Name: Sword Of Darkness
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 3f10ffa86f0b36644b9789752ca89e43, type: 3}
+  itemName: Sword Of Darkness
+  modelPrefab: {fileID: 1369515071076005815, guid: 1d4500a6f7f39b24f82cdcdabced91ba, type: 3}
+  isUnarmed: 0
+  baseDamage: 40
+  heavyDamageMultiplier: 2
+  criticalDamageMultiplier: 4
+  physicalDamageAbsorption: 50
+  right_Hand_Idle: Right_Arm_Idle_01
+  left_Hand_Idle: Left_Arm_Idle_01
+  OH_Light_Attack_1: OH_Oriental_01
+  OH_Light_Attack_2: OH_Oriental_02
+  OH_Light_Attack_3: OH_Oriental_03
+  OH_Heavy_Attack_1: OH_Darkness_Sword_Heavy_01
+  Dual_Light_Attack_1: TH_Dual_Light_Attack_01
+  Dual_Light_Attack_2: TH_Dual_Light_Attack_02
+  Dual_Light_Attack_3: TH_Dual_Light_Attack_03
+  Dual_Light_Attack_4: TH_Dual_Light_Attack_04
+  Dual_Heavy_Attack_1: TH_Dual_Heavy_Attack_01
+  Dual_Heavy_Attack_2: TH_Dual_Heavy_Attack_02
+  OH_Light_Attack_1_FX: {fileID: 8705918002280356048, guid: bcd054d27f4c87343a3e8425be50790e, type: 3}
+  OH_Light_Attack_2_FX: {fileID: 8705918002280356048, guid: c7d0324fc5435b14b93a272ed7f3a3b4, type: 3}
+  OH_Light_Attack_3_FX: {fileID: 1294101409476956, guid: 231e3be01ac50c047bb16d07fd8d2ba5, type: 3}
+  OH_Heavy_Attack_1_FX: {fileID: 1602379607235420, guid: 028b1ae485e846c4688aabad7557e474, type: 3}
+  OH_Light_Attack_1_Sound: {fileID: 8300000, guid: c5bdbfdadb66f40919d4d557751b2f50, type: 3}
+  OH_Light_Attack_2_Sound: {fileID: 8300000, guid: 4efb4ddedd59d49adb3fbd30b6d3edec, type: 3}
+  OH_Light_Attack_3_Sound: {fileID: 8300000, guid: 8a7127be51a014e5b980f172afda4411, type: 3}
+  OH_Heavy_Attack_1_Sound: {fileID: 8300000, guid: defd2ad8bedbe453f94c94c4590bcf2f, type: 3}
+  baseStamina: 12
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 4
+  isMeleeWeapon: 1

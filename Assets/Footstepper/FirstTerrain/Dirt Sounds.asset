@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635bfebfe7180794a95f118a4d319b87, type: 3}
+  m_Name: Dirt Sounds
+  m_EditorClassIdentifier: 
+  defaultEffect:
+    walkAudioClips: []
+    walkPrefabs: []
+    runAudioClips:
+    - {fileID: 8300000, guid: e65dcf5a5851a41558b375596c666297, type: 3}
+    - {fileID: 8300000, guid: 066d6d9639d3340a3a03ca031a380abc, type: 3}
+    - {fileID: 8300000, guid: 1eca43e5fc1004d8f9dad5db3163f0d1, type: 3}
+    runPrefabs: []
+    sprintAudioClips:
+    - {fileID: 8300000, guid: e65dcf5a5851a41558b375596c666297, type: 3}
+    - {fileID: 8300000, guid: 066d6d9639d3340a3a03ca031a380abc, type: 3}
+    - {fileID: 8300000, guid: 1eca43e5fc1004d8f9dad5db3163f0d1, type: 3}
+    sprintPrefabs: []
+    jumpAudioClips: []
+    jumpPrefabs: []
+    landAudioClips: []
+    landPrefabs: []
+    customEffects: []
+  tagEffects: []

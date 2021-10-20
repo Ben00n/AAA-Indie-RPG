@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2c584be9bdb2e478623a977bb9b93e, type: 3}
+  m_Name: Magic Sword
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 43b9312ee58fe5b4aaecef6ded647a46, type: 3}
+  itemName: Magic Sword
+  modelPrefab: {fileID: 7846127846316249483, guid: c5fec3c3246e1e74cb73981138dbd657, type: 3}
+  isUnarmed: 0
+  baseDamage: 34
+  heavyDamageMultiplier: 2
+  criticalDamageMultiplier: 4
+  physicalDamageAbsorption: 50
+  right_Hand_Idle: Right_Arm_Idle_01
+  left_Hand_Idle: Left_Arm_Idle_01
+  OH_Light_Attack_1: OH_Magic_01
+  OH_Light_Attack_2: OH_Magic_02
+  OH_Light_Attack_3: OH_Magic_03
+  OH_Heavy_Attack_1: OH_Magic_Sword_Heavy_01
+  Dual_Light_Attack_1: TH_Dual_Light_Attack_01
+  Dual_Light_Attack_2: TH_Dual_Light_Attack_02
+  Dual_Light_Attack_3: TH_Dual_Light_Attack_03
+  Dual_Light_Attack_4: TH_Dual_Light_Attack_04
+  Dual_Heavy_Attack_1: TH_Dual_Heavy_Attack_01
+  Dual_Heavy_Attack_2: TH_Dual_Heavy_Attack_02
+  OH_Light_Attack_1_FX: {fileID: 1130446560849736, guid: b920948029672c7489eaa69972bdaa60, type: 3}
+  OH_Light_Attack_2_FX: {fileID: 1942681157837952, guid: 8652e10c4f3eb7c44aec169fb1aac54b, type: 3}
+  OH_Light_Attack_3_FX: {fileID: 5972847728857936061, guid: 62757f3b1fd5e734a8c81ae22d52ee8a, type: 3}
+  OH_Heavy_Attack_1_FX: {fileID: 1789270911803724, guid: 6bc5ceae68d744b498bccf57cbb0decc, type: 3}
+  OH_Light_Attack_1_Sound: {fileID: 8300000, guid: 1d27ffb939efe4fae8f451611590339a, type: 3}
+  OH_Light_Attack_2_Sound: {fileID: 8300000, guid: 2cb9905691ad544e89ca2c766da24f1c, type: 3}
+  OH_Light_Attack_3_Sound: {fileID: 8300000, guid: a56388fad4af34211a39d513d649ee4a, type: 3}
+  OH_Heavy_Attack_1_Sound: {fileID: 8300000, guid: 8a7127be51a014e5b980f172afda4411, type: 3}
+  baseStamina: 20
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2
+  isMeleeWeapon: 1

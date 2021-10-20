@@ -1,0 +1,11 @@
+A collection of water splash special effects!
+
+Two types of splash effects are provided, both of which come in three different sizes. The splashes are comprised of multiple effects, including water jets, wake, ripples, splash droplets, mist and sound effects.
+
+Load "Splashes.unity" for an example scene (click  the left and right mouse buttons to trigger the two splash effects), or simply drag the required particle effect from the Prefabs folder (in the Project window) into the Hierarchy window. Note that each of the two effects come in three different sizes.
+
+Have fun!
+
+Thanks for purchasing this asset, please consider rating or writing a review about it. If you have any questions then please get in touch at bendurrant@rivermillstudios.com
+
+
