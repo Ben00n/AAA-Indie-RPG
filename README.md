@@ -1,3 +1,3 @@
 # AAA-Indie-RPG
 
-I put my heart and soul in this project :)
+Work in progress of my first indie rpg game.
