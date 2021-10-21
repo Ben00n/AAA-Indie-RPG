@@ -36,10 +36,23 @@ F2: Switch target AFTER locking on an enemy to the left
 Escape: Menu
 
 B: Drink health potion (unlimited amount for testings)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
 # Rotate camera by holding right click.
 # Mousewheel to zoom in / out
 # Light attack can perform combos
 # Heavy attack on dual wield can perform a combo
 # Every weapon has different combos, damage output and VFX.
 # Boss enrages on 50% providing it with bonus damage, VFX on weapon and quicker attacks
+~~~
+# Things need to be done
+Finish UI for a full ready equipment system.
+
+Bug fix regarding damage colliders.
+
+Bug fix gore vfx appearing on invulnerabillity state.
+
+Add more content to the game - (Quests, regions and npcs).
+
+Add an economy system and stores.
+
+Archery system.
