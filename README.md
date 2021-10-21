@@ -56,3 +56,5 @@ Add more content to the game - (Quests, regions and npcs).
 Add an economy system and stores.
 
 Archery system.
+
+Add proper environment SFX and during fight with boss.
