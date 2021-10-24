@@ -49,7 +49,7 @@ Finish UI for a full ready equipment system.
 
 Bug fix regarding damage colliders.
 
-Bug fix gore vfx appearing on invulnerabillity state.
+Bug fix gore VFX appearing on invulnerabillity state.
 
 Add more content to the game - (Quests, regions and npcs).
 
@@ -58,3 +58,5 @@ Add an economy system and stores.
 Archery system.
 
 Add proper environment SFX and during fight with boss.
+
+Add UI for stat system
