@@ -132,7 +132,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - Vector3_B9EF5167: {r: 0.4, g: 1, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: -0.0026519538}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19998878, g: 0.19998878, b: 0.19998878, a: 0}
