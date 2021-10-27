@@ -11,6 +11,7 @@ public class EnemyStatsManager : CharacterStatsManager
 
     public AudioClip getHitSound;
 
+    EnemyManager enemyManager;
     WorldEventManager worldEventManager;
     EventColliderBeginBossFight eventCollider;
     EnemyAnimatorManager enemyAnimatorManager;
@@ -25,6 +26,7 @@ public class EnemyStatsManager : CharacterStatsManager
         eventCollider = FindObjectOfType<EventColliderBeginBossFight>();
         enemyAnimatorManager = GetComponent<EnemyAnimatorManager>();
         enemyBossManager = GetComponent<EnemyBossManager>();
+        enemyManager = GetComponent<EnemyManager>();
         maxHealth = SetMaxHealthFromHealthLevel();
         currentHealth = maxHealth;
     }
@@ -34,6 +36,18 @@ public class EnemyStatsManager : CharacterStatsManager
         if(!isBoss)
         {
             enemyHealthBar.SetMaxHealth(maxHealth);
+        }
+    }
+
+    public override void HandlePoiseResetTimer()
+    {
+        if (poiseResetTimer > 0)
+        {
+            poiseResetTimer = poiseResetTimer - Time.deltaTime;
+        }
+        else if (poiseResetTimer <= 0 && !enemyManager.isInteracting)
+        {
+            totalPoiseDefense = armorPoiseBonus;
         }
     }
 
@@ -83,7 +97,7 @@ public class EnemyStatsManager : CharacterStatsManager
             enemyBossManager.UpdateBossHealthBar(currentHealth, maxHealth);
         }
 
-        //enemyAnimatorManager.PlayTargetAnimation(damageAnimation,true); //get hit anim disabled due to cancel animation
+        enemyAnimatorManager.PlayTargetAnimation(damageAnimation,true); //get hit anim disabled due to cancel animation
         AudioManager.Instance.PlaySound(getHitSound, gameObject);
 
         if (currentHealth <= 0)

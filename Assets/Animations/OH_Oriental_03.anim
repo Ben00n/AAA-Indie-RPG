@@ -60990,6 +60990,13 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.033333335
+    functionName: GrantWeaponAttackingPoiseBonus
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.2
     functionName: OpenDamageCollider
     data: 
@@ -61006,6 +61013,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.46666667
     functionName: CloseDamageCollider
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.7
+    functionName: ResetWeaponAttackingPoiseBonus
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

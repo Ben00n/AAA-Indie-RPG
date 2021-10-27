@@ -47,6 +47,18 @@ public class PlayerStatsManager : CharacterStatsManager
         focusPointsBar.SetCurrentFocus(currentFocusPoints);
     }
 
+    public override void HandlePoiseResetTimer()
+    {
+        if (poiseResetTimer > 0)
+        {
+            poiseResetTimer = poiseResetTimer - Time.deltaTime;
+        }
+        else if(poiseResetTimer <= 0 && !playerManager.isInteracting)
+        {
+            totalPoiseDefense = armorPoiseBonus;
+        }
+    }
+
     private float SetMaxHealthFromHealthLevel()
     {
         maxHealth = healthLevel * 10;
@@ -72,7 +84,7 @@ public class PlayerStatsManager : CharacterStatsManager
 
         base.TakeDamage(damage, damageAnimation = "Damage_01");
         healthBar.SetCurrentHealth(currentHealth);
-        //animatorHandler.PlayTargetAnimation(damageAnimation,true); //disabled due to animation canceling
+        playerAnimatorManager.PlayTargetAnimation(damageAnimation,true); //disabled due to animation canceling
 
         if(currentHealth <= 0)
         {

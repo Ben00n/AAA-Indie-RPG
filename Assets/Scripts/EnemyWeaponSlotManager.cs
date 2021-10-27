@@ -103,4 +103,18 @@ public class EnemyWeaponSlotManager : CharacterWeaponSlotManager
     public void DisableCombo()
     {
     }
+
+    #region Handle Weapon's Poise Bonus
+
+    public void GrantWeaponAttackingPoiseBonus()
+    {
+        enemyStatsManager.totalPoiseDefense = enemyStatsManager.totalPoiseDefense + enemyStatsManager.offensivePoiseBonus;
+    }
+
+    public void ResetWeaponAttackingPoiseBonus()
+    {
+        enemyStatsManager.totalPoiseDefense = enemyStatsManager.armorPoiseBonus;
+    }
+
+    #endregion
 }

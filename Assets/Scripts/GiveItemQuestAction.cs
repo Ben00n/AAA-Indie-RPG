@@ -16,9 +16,9 @@ namespace PixelCrushers.QuestMachine
         public override void Execute()
         {
             base.Execute();
-            PlayerInventoryManager playerInventory = FindObjectOfType<PlayerInventoryManager>();
+            PlayerInventoryManager playerInventoryManager = FindObjectOfType<PlayerInventoryManager>();
             uiManager = FindObjectOfType<UIManager>();
-            playerInventory.weaponsInventory.Add(weaponItemToGive);
+            playerInventoryManager.weaponsInventory.Add(weaponItemToGive);
             uiManager.UpdateUI();
         }
 

@@ -16,6 +16,13 @@ public class CharacterStatsManager : MonoBehaviour
     public float maxFocusPoints;
     public float currentFocusPoints;
 
+    [Header("Poise")]
+    public float totalPoiseDefense; // total poise after calculation
+    public float offensivePoiseBonus; //The poise you gain during an attack with weapon
+    public float armorPoiseBonus; // the poise you gain from wearing your armor
+    public float totalPoiseResetTime = 15;
+    public float poiseResetTimer = 0;
+
     [Header("Armor Absorptions")]
     public float physicalDamageAbsorptionHead;
     public float physicalDamageAbsorptionShoulders;
@@ -29,6 +36,16 @@ public class CharacterStatsManager : MonoBehaviour
     public int experienceAwardedOnDeath = 50;
 
     public bool isDead;
+
+    protected virtual void Update()
+    {
+        HandlePoiseResetTimer();
+    }
+
+    private void Start()
+    {
+        totalPoiseDefense = armorPoiseBonus;
+    }
 
     public virtual void TakeDamage(int physicalDamage, string damageAnimation = "Damage_01")
     {
@@ -58,6 +75,18 @@ public class CharacterStatsManager : MonoBehaviour
         {
             currentHealth = 0;
             isDead = true;
+        }
+    }
+
+    public virtual void HandlePoiseResetTimer()
+    {
+        if(poiseResetTimer > 0)
+        {
+            poiseResetTimer = poiseResetTimer - Time.deltaTime;
+        }
+        else
+        {
+            totalPoiseDefense = armorPoiseBonus;
         }
     }
 

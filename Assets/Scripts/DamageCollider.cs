@@ -6,6 +6,11 @@ public class DamageCollider : MonoBehaviour
 {
     Collider damageCollider;
 
+    [Header("Poise")]
+    public float poiseBreak;
+    public float offensivePoiseBonus;
+
+    [Header("Damage")]
     public int currentWeaponDamage = 25;
 
 
@@ -56,7 +61,17 @@ public class DamageCollider : MonoBehaviour
                 Vector3 contactPoint = collision.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position);
                 playerEffectsManager.PlayBloodSplatterFX(contactPoint);
 
-                playerStats.TakeDamage(currentWeaponDamage);
+                playerStats.poiseResetTimer = playerStats.totalPoiseResetTime;
+                playerStats.totalPoiseDefense = playerStats.totalPoiseDefense - poiseBreak;
+
+                if (playerStats.totalPoiseDefense > poiseBreak)
+                {
+                    playerStats.TakeDamageNoAnimation(currentWeaponDamage);
+                }
+                else
+                {
+                    playerStats.TakeDamage(currentWeaponDamage);
+                }
             }
         }
 
@@ -69,20 +84,36 @@ public class DamageCollider : MonoBehaviour
 
 
             float heavyAttackDamage = currentWeaponDamage * playerInventory.rightWeapon.heavyDamageMultiplier;
+
+            // DETECT WHERE ON THE COLLIDER MY WEAPON HIT
+            Vector3 contactPoint = collision.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position);
+            enemyEffectsManager.PlayBloodSplatterFX(contactPoint);
+
             if (enemyStats != null)
             {
-                // DETECT WHERE ON THE COLLIDER MY WEAPON HIT
-                Vector3 contactPoint = collision.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position);
-                enemyEffectsManager.PlayBloodSplatterFX(contactPoint);
+                enemyStats.poiseResetTimer = enemyStats.totalPoiseResetTime;
+                enemyStats.totalPoiseDefense = enemyStats.totalPoiseDefense - poiseBreak;
 
-                if (playerAttacker.lastAttack == "OH_Magic_Sword_Heavy_01" || playerAttacker.lastAttack == "OH_Basic_Sword_Heavy_01" ||
-                    playerAttacker.lastAttack == "OH_Heavy_Attack_01" || playerAttacker.lastAttack == "OH_Darkness_Sword_Heavy_01" ||
-                    playerAttacker.lastAttack == "OH_Heavy_Attack_Blood_01")
+                if (enemyStats.totalPoiseDefense > poiseBreak)
+                {
+                    enemyStats.TakeDamageNoAnimation(currentWeaponDamage);
+                }
+                else
+                {
+                    enemyStats.TakeDamage(currentWeaponDamage);
+                }
+
+              /*  if (playerAttacker.lastAttack == "OH_Magic_Sword_Heavy_01" || playerAttacker.lastAttack == "OH_Basic_Sword_Heavy_01" ||
+                     playerAttacker.lastAttack == "OH_Heavy_Attack_01" || playerAttacker.lastAttack == "OH_Darkness_Sword_Heavy_01" ||
+                     playerAttacker.lastAttack == "OH_Heavy_Attack_Blood_01")
                 {
                     enemyStats.TakeDamage(Mathf.RoundToInt(heavyAttackDamage));
-                    return;
                 }
-                enemyStats.TakeDamage(currentWeaponDamage);
+                else
+                {
+                    enemyStats.TakeDamage(currentWeaponDamage);
+                }*/
+
             }
         }
 
