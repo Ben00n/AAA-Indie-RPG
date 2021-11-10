@@ -59,4 +59,4 @@ Archery system.
 
 Add proper environment SFX and during fight with boss.
 
-Add UI for stat system
+Add UI for stat system.
