@@ -19,6 +19,8 @@ MonoBehaviour:
   baseDamage: 5
   heavyDamageMultiplier: 2
   criticalDamageMultiplier: 4
+  poiseBreak: 2000
+  offensivePoiseBonus: 2000
   physicalDamageAbsorption: 0
   right_Hand_Idle: Right_Arm_Idle_01
   left_Hand_Idle: Left_Arm_Idle_01

@@ -84,7 +84,6 @@ public class PlayerStatsManager : CharacterStatsManager
 
         base.TakeDamage(damage, damageAnimation = "Damage_01");
         healthBar.SetCurrentHealth(currentHealth);
-        playerAnimatorManager.PlayTargetAnimation(damageAnimation,true); //disabled due to animation canceling
 
         if(currentHealth <= 0)
         {
@@ -92,6 +91,10 @@ public class PlayerStatsManager : CharacterStatsManager
             playerAnimatorManager.PlayTargetAnimation("Dead_02", true);
             isDead = true;
             //HandlePlayerDeath
+        }
+        else
+        {
+            playerAnimatorManager.PlayTargetAnimation(damageAnimation, true);
         }
     }
 
