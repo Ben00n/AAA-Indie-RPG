@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimatorManager : MonoBehaviour
+public class CharacterAnimatorManager : MonoBehaviour
 {
     public Animator animator;
     protected CharacterManager characterManager;

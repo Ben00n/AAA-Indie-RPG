@@ -308,7 +308,7 @@ public class PlayerCombatManager : MonoBehaviour
                 enemyCharacterManager.pendingDamage = criticalDamage;
 
                 playerAnimatorManager.PlayTargetAnimation("Backstab", true);
-                enemyCharacterManager.GetComponentInChildren<AnimatorManager>().PlayTargetAnimation("Back_Stabbed", true);
+                enemyCharacterManager.GetComponentInChildren<CharacterAnimatorManager>().PlayTargetAnimation("Back_Stabbed", true);
             }
         }
     }
